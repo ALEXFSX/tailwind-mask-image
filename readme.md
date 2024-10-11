@@ -99,8 +99,3 @@ Contributing
 ------------
 
 Contributions are welcome! If you have suggestions for improvements or find bugs, feel free to open an issue or submit a pull request.
-
-Contact
--------
-
-For questions or feedback, you can reach me at [your-email@example.com](mailto:your-email@example.com).

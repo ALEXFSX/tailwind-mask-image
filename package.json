@@ -1,6 +1,6 @@
 {
   "name": "tailwind-mask-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tailwind CSS plugin that generates dynamic mask-image utilities based on backgroundImage.",
   "main": "index.js",
   "scripts": {
