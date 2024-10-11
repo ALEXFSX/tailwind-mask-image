@@ -1,21 +1,35 @@
 {
-    "name": "tailwind-mask-image",
-    "version": "1.0.0",
-    "description": "Um plugin para Tailwind CSS que cria utilitários de mask-image dinâmicos baseados em backgroundImage",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-      "tailwindcss",
-      "plugin",
-      "mask-image",
-      "backgroundImage"
-    ],
-    "author": "Alex Freitas",
-    "license": "MIT",
-    "dependencies": {
-      "tailwindcss": "^3.0.0"
-    }
-  }
-  
+  "name": "tailwind-mask-image",
+  "version": "1.0.0",
+  "description": "A Tailwind CSS plugin that generates dynamic mask-image utilities based on backgroundImage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build src/styles.css -o dist/styles.css",
+    "watch": "tailwindcss build src/styles.css -o dist/styles.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "mask-image",
+    "background-image",
+    "utilities"
+  ],
+  "author": "Alex Freitas",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALEXFSX/tailwind-mask-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ALEXFSX/tailwind-mask-image/issues"
+  },
+  "homepage": "https://github.com/ALEXFSX/tailwind-mask-image#readme"
+}
