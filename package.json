@@ -1,0 +1,21 @@
+{
+    "name": "tailwind-mask-image",
+    "version": "1.0.0",
+    "description": "Um plugin para Tailwind CSS que cria utilitários de mask-image dinâmicos baseados em backgroundImage",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "tailwindcss",
+      "plugin",
+      "mask-image",
+      "backgroundImage"
+    ],
+    "author": "Alex Freitas",
+    "license": "MIT",
+    "dependencies": {
+      "tailwindcss": "^3.0.0"
+    }
+  }
+  
